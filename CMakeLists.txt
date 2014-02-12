@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8)
 project(out)
 find_package( OpenCV REQUIRED )
-add_executable(out draw_image.cpp)
+add_executable(out img_proc_threshold_adaptive.cpp)
 target_link_libraries(out ${OpenCV_LIBS})
